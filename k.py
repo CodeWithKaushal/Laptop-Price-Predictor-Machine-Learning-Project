@@ -7,3 +7,4 @@ model = pipe.named_steps['step2']  # 'step2' is the name used for the model in y
 
 # Print the model's name
 print("The model used in the pipeline is:", type(model).__name__)
+
